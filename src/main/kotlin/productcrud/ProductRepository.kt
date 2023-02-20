@@ -1,0 +1,4 @@
+package productcrud
+
+interface ProductRepository {
+}
