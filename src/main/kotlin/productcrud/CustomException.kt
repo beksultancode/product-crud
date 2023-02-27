@@ -1,4 +1,4 @@
 package productcrud
 
-class CustomException {
+class CustomException(message: String): RuntimeException(message) {
 }

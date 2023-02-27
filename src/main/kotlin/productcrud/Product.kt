@@ -1,4 +1,4 @@
-package productcrud.entities
+package productcrud
 
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
@@ -14,4 +14,5 @@ data class Product(
     var description: String,
     var price: Double
 ) {
+    constructor() : this(null, "", "", 0.0)
 }

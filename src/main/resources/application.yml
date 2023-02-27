@@ -4,3 +4,8 @@ spring:
         password: password
         url: jdbc:postgresql://localhost:5432/products
         username: mamatkadyruulu
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: validate
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
